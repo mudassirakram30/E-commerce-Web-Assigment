@@ -66,3 +66,64 @@
     justify-content: space-around;
     margin: 50px auto;
 }
+.sec1btn>button {
+    width: 240px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.sec2btn>button {
+    width: 240px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.sec3btn>button {
+    width: 240px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    text-align: center;
+}
+.second1, .second2, .second3 {
+    position: relative;
+    width: 30%;
+}
+.second1 img,
+.second2 img,
+.second3 img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.sec1div, .sec2div, .sec3div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.sec1btn > button:hover,
+.sec2btn > button:hover,
+.sec3btn > button:hover {
+    background-color: black;
+    color: white;
+}
+.thirdsec {
+    align-items: center;
+    text-align: center;
+}
+.thirdsech3 {
+    position: relative;
+    top: -150px;
+    left: 50%;
+    transform: translate( -50% , -50% );
+    text-align: center;
+    color: white;
+}
