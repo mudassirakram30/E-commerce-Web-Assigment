@@ -142,14 +142,14 @@
 }
 /* footer end */
 
-@media  (max-width: 480px) {
+@media  (max-width: 500px) {
     /* header responsive */
     .header {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 10px;
-    }
+    }   
     /* header responsive */
     .herosecul {
         display: flex;
