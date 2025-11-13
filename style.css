@@ -1,0 +1,63 @@
+*/ {
+    margin: 0%;
+    padding: 0%;
+}
+/* Header Start! */
+.header {
+    background-color: DDDBDC;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    box-shadow: 0px 15px 20px -20px rgba(0,0,0,0.75);
+}
+.navul {
+    list-style: none;;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+.headicon {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+}
+/* Header End */
+/* Herosection */
+.herosectext {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.herosecul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.sale {
+    color: red;
+}
+.imgdivhero {
+    height: 758px;
+    width: 1200px;
+}
+.textwhitehero {
+    color: white;
+    text-align: center;
+}
+.herosecbox {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+.btndiv {
+    display: flex;
+    justify-content: center;
+}
+.herosecbtn {
+    border: none;
+    width: 196px;
+}
+/* herosection end */
+.bodyh2 {
+    margin-top: 50px;
+}
