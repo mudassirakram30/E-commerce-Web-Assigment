@@ -61,3 +61,8 @@
 .bodyh2 {
     margin-top: 50px;
 }
+.categorysec {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
