@@ -37,7 +37,6 @@
     color: red;
 }
 .imgdivhero {
-    height: 758px;
     width: 100%;
 }
 .imgdivhero > img {
@@ -62,7 +61,7 @@
 }
 /* herosection end */
 .bodyh2 {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .categorysec {
     display: flex;
@@ -143,15 +142,69 @@
 }
 /* footer end */
 
-@media  (max-width: 576px) {
+@media  (max-width: 480px) {
+    /* header responsive */
     .header {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 10px;
     }
+    /* header responsive */
     .herosecul {
         display: flex;
         flex-wrap: wrap;
+        gap: 25px;
     }
-    
+    .herosecbox {
+        position: absolute;
+        top: 300px;
+        left: 20px;
+    }
+    h3 {
+        font-size: 15px !important;       
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    .herosecbtn {
+        width: 100px;
+    }
+    .categorysec {
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    .secondsection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second1, 
+    .second2,
+    .second3 {
+        width: 450px;
+        padding-bottom: 10px;
+    }
+    .thirdsec {
+        width: 480px;
+    }
+    .thirdsec > img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .thirdsech3 {
+        position: relative;
+        top: -50px;
+
+    }
+    /* footer responsive */
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .f1 {
+        width: 220px;
+        text-align: center;
+    }
+    /* footer responsive */
 }
